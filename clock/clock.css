@@ -1,0 +1,93 @@
+* {
+  
+    font-family: Impact;
+  
+  }
+
+  .clock {
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 10px;
+    background: #bbd8d2;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .square {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+  }
+ 
+  .digits {
+    font-size: 24px;
+    background: #e0efec;
+    color: #496469;
+    padding: 20px 10px;
+    border-radius: 5px;
+  }
+
+
+  .text{
+    margin-top: 10px;
+    color: #496469;
+  }
+
+
+  .alerts {
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 10px;
+    background: #bbd8d2;
+    white-space: nowrap;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+  }
+
+  input {
+    width: 60%;
+    padding: 5px;
+    margin: 20px;
+    box-sizing: border-box;  
+    background:#e0efec ;
+    font-size: 13px;
+  }
+
+  .alerts select {
+    box-sizing: padding-box;
+    width: 50%;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px 0;
+    background-color:#e0efec ;
+    color: #496469;
+    border: #496469;
+    
+    
+  }
+  #tset, #reset {
+   
+    width: 50%;
+    background: #e0efec;
+    color: #496469;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+    display: block;
+    margin-top: auto;
+    font-weight: bold;
+    font-size: 15px;
+
+  }
+
+  .buttons{
+    flex-basis: 100%;
+    align-content: center;
+    display: flex;
+    
+   
+  }
+

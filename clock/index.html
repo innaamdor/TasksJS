@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript Clock</title>
+    <link rel="stylesheet" href="clock.css">
+    <script src="clock.js"></script>
+</head>
+<body>
+   <section class="clock">
+        <div class="square">
+          <div class="hours digits">00</div>
+          <div class="text">HR</div>
+        </div>
+        <div class="square">
+          <div class="minutes digits">00</div>
+          <div class="text">MIN</div>
+        </div>
+        <div class="square">
+          <div class="seconds digits">00</div>
+          <div class="text">SEC</div>
+    </div>
+    </section>
+    <section class="alerts">
+        <select class="actionOptions">
+            <option value="Wakeup Time">Wakeup Time</option>
+            <option value="Lunch Time">Lunch Time</option>
+            <option value="Sleep Time">Sleep Time</option>
+        </select>
+
+        <div class="hr-picker">
+            <input type="number" id="hrTime" name="h" min="0" max="23">
+        </div>
+        <div class="min-picker">
+            <input type="number" id="minTime" name="m" min="0" max="59">
+        </div>
+
+        <div class="buttons">
+            <input type="button" onclick="getInputValue();" value="Set" id="tset"/>
+            <input type="button" value="Reset" id="reset" disabled/>
+          </div>
+
+
+          <div class="userSelected"></div>
+    </section>
+
+  
+</body>
+</html>
